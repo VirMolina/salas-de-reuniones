@@ -1,0 +1,719 @@
+.titulo-prin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 26%;
+}
+
+.titulo-prin h1 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin: 0px 0px;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+
+.titulo-prin h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-right: 150px;
+}
+
+a.button.sombra.boton_habla_arriba {
+    background: #ffffff00;
+    border: 4px solid #b00e17;
+}
+
+.titulo-prin .button.fondo_azul.sombra {
+    background: #25326b;
+}
+
+.titulo-prin .botones {
+    text-align: left;
+}
+
+.tit-sli {
+    margin: 0px 0px 30px 0px;
+}
+
+#row_productos {
+    background-image: none;
+    background-color: #eaeaea;
+    margin: 20px 40px 60px 40px;
+    border-radius: 17px;
+}
+
+#producto {
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: auto;
+    width: 100%;
+}
+
+img.img-sec.img-p {
+    position: relative;
+}
+
+.col-seg {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 33.3333%;
+}
+
+.ic-seg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    padding: 28px 20px;
+    border-radius: 20px;
+    margin: 0px 36px;
+    height: 227px;
+}
+
+p.pseg {
+    font-family: 'Lato';
+    font-weight: 300;
+    color: #25326b;
+    margin: 18px 0px 0px 0px;
+    font-size: 17px;
+}
+
+h3.tit-ico-se {
+    font-family: 'Lato';
+    font-weight: 600;
+    color: #25326b;
+    font-size: 25px;
+}
+
+h3.tit-ico-se.xt {
+    margin: 39px 0px 0px 0px;
+}
+
+#productos {
+    padding: 40px 0px 0px;
+    background: #ffffff;
+}
+
+@media (min-width: 768px){
+#productos_boton {
+    margin-top: 29px !important;
+    margin-bottom: 40px !important;
+}
+}
+
+section.parallax {
+    background-color: #25326b;
+    color: #ffffff;
+}
+
+.columnas-pa {
+    display: flex;
+    align-items: center;
+    padding: 40px 0px 40px 61px;
+}
+
+.titl-pa .linea {
+    color: #006730;
+    border-color: #006730;
+    background-color: #006730;
+    width: 170px;
+    height: 1px;
+    margin: 0px 0px 12px 0px;
+}
+
+.beneficio {
+    background-color: #ffffff;
+}
+
+.beneficio .row {
+    margin: 0px;
+}
+
+.beneficio .flexthis {
+    justify-content: center;
+}
+
+.beneficio #cuadro {
+    margin: 50px 0px;
+}
+
+.beneficio #titulos {
+    margin-bottom: 37px;
+}
+
+.parr-para p {
+    font-family: 'Lato';
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.texto-pa {
+    padding: 0px 30px 0px 0px;
+    width: 56%;
+}
+
+.ventajas-para {
+    display: flex;
+    margin: 32px 0px 0px 0px;
+    justify-content: space-between;
+}
+
+.vent-pa {
+    background: #ffffff;
+    margin: 21px;
+}
+
+.vent-pa {
+    background: #ffffff;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 13px 10px;
+    width: 30%;
+    border-radius: 8px;
+}
+
+.vent-pa h3 {
+    color: #25326b;
+    text-align: center;
+    font-weight: 600;
+    font-size: 21px;
+    font-style: italic;
+    font-family: 'Lato';
+}
+
+.videp-para img {
+    width: 100%;
+}
+
+.btn-srv a#productos_boton {
+    margin: 0px !important;
+}
+
+.bt-srva {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 900px){
+
+    body {
+        background-size: 555%;
+        background-image: url(../images/header.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    body h1 {
+        font-size: 30px !important;
+    }
+
+    .titulo-prin {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0%;
+    }
+
+
+    .titulo-prin h1 {
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        text-transform: uppercase;
+        margin: 0px 10px 0px 10px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .titulo-prin h2 {
+        font-weight: 400;
+        font-size: 19px;
+        letter-spacing: 2px;
+        margin: 20px 10px !important;
+        text-align: center;
+    }
+
+    #collage .imagenes {
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+
+    #collage .imagenes {
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+
+    #collage .imagenes .imagen {
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+        height: 188px;
+        float: left;
+        margin: 0px;
+        padding: 0px;
+    }
+
+}
+
+.pqtxt {
+    text-align: justify;
+}
+
+td.im1d {
+    padding-bottom: 37px;
+}
+
+td.im2d {
+    padding-bottom: 26px;
+}
+
+td.im5d {
+    padding-bottom: 32px;
+}
+
+td.im6d {
+    padding-bottom: 93px;
+}
+
+td.im4d {
+    padding-bottom: 54px;
+}
+
+.beneficio .container {
+    width: 100%;
+    padding: 10px 25px;
+}
+
+#tira{
+    background-color: #eaeaea;
+    padding: 30px 0px;
+}
+
+#tira .nbs-flexisel-item img {
+    width: auto !important;
+}
+  
+#tira .nbs-flexisel-item {
+    height: 80px !important;
+    line-height: 80px !important;
+}
+
+.img1B, .img2B, .img3B, .img4B, .img5B, .img6B{
+    display: none;
+  }
+  #cuadro:hover .img1{display: none;}
+  #cuadro:hover .img1B{display: block;}
+  #cuadro:hover .img2{display: none;}
+  #cuadro:hover .img2B{display: block;}
+  #cuadro:hover .img3{display: none;}
+  #cuadro:hover .img3B{display: block;}
+  #cuadro:hover .img4{display: none;}
+  #cuadro:hover .img4B{display: block;}
+  #cuadro:hover .img5{display: none;}
+  #cuadro:hover .img5B{display: block;}
+  #cuadro:hover .img6{display: none;}
+  #cuadro:hover .img6B{display: block;}
+
+  #cuadro img {
+    margin-right: 10px;
+}
+
+#cuadro:hover .img1B {
+    display: block;
+}
+
+#producto #cuadro:hover .img1B {
+    display: inline-table;
+    margin: 0px;
+}
+
+.cuadro-service {
+    width: 33%;
+    margin: 20px 0px!important;
+    display: flex;
+}
+
+td.imgtd {
+    top: 0px;
+    display: block;
+}
+
+#productos td.imgtd {
+    top: 0px;
+    display: inline-block;
+}
+
+.cuadro_tit {
+    font-weight: 700;
+    color: #25326b;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 18px;
+    font-style: oblique;
+    padding: 0px 0px 10px 0px;
+}
+
+p.cuadro_txt {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.kj #productos_boton {
+    text-decoration: none;
+    color: white;
+    margin: 20px 0px;
+    background-color: #a10d13;
+    font-size: 23px;
+    font-weight: 400;
+    padding: 15px 30px;
+}
+
+.ic-seg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    padding: 0px 0px;
+    border-radius: 20px;
+    margin: 0px 36px;
+    height: 227px;
+}
+
+.cdr-hover {
+    width: 100%;
+    display: flex;
+}
+
+.cdr-hover table {
+    width: 100%;
+    height: 227px;
+}
+
+
+#cuadro:hover .mvx{
+    display: block;
+    margin: 0px 0px 0px 70px;
+}
+
+.cdr-hover img {
+    margin-right: 0px !important;
+}
+
+#productos .cdr-hover {
+    width: 100%;
+    display: table-cell;
+    text-align: center;
+}
+
+.ic-seg:hover {
+    box-shadow: 6px 8px 11px 2px #909090ce;
+}
+
+#tira #titulos span {
+    font-size: 30px;
+}
+
+.linea {
+    color: #00923f;
+    border-color: #00923f;
+    background-color: #00923f;
+    width: 170px;
+    height: 3px;
+    margin: 0px auto;
+}
+
+#tira .linea {
+    color: #00923f;
+    border-color: #00923f;
+    background-color: #00923f;
+    width: 400px;
+    height: 3px;
+    margin: 0px auto;
+}
+
+.button {
+    margin: 10px;
+    padding: 5px 0px;
+    text-decoration: none !important;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    display: inline-block;
+}
+
+.boton_menu {
+    font-weight: 700;
+    color: #373f50;
+    border: 2px solid #ede8d5;
+    background-color: transparent;
+}
+
+.boton_menu:hover {
+    background-color: #00923f;
+    border: 2px solid #00923f;
+    color: white;
+}
+
+#productos #titulos {
+    margin-bottom: 33px;
+}
+
+p.cuadro_txt {
+    font-family: 'Lato';
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.beneficio div#cuadro {
+    padding: 0px;
+}
+
+.beneficio .flexthis {
+    justify-content: center;
+    margin: 10px 20px 0px 20px;
+}
+
+.beneficio td.imgtd {
+    padding: 6px 0px 0px 0px;
+}
+
+.videp-para {
+    padding: 42px 0px 0px 0px;
+}
+
+.videp-para iframe {
+    width: 536px;
+    height: 360px;
+}
+
+span.guion {
+    display: contents;
+}
+
+@media (max-width: 900px){
+
+    .modalDialog > div {
+        width: 80%;
+        display: flex;
+        height: auto;
+        position: relative;
+        margin: 5% auto;
+        padding: 0px;
+        border-radius: 10px;
+        -moz-transition: opacity 400ms ease-in;
+        transition: opacity 400ms ease-in;
+    }
+    .modalDialog:target {
+        opacity: 1;
+        pointer-events: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #collage .imagenes .imagen a.btn-mas {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+    }
+
+    .first .row {
+        margin-bottom: 0px !important;
+        padding: 70px 0px 88px 0px;
+    }
+
+    .beneficio {
+        padding: 10px 0px;
+    }
+
+    .beneficio #cuadro {
+        margin: 10px 0px;
+    }
+
+    #collage {
+        width: 100%;
+        display: inline-block;
+        margin: 0px !important;
+    }
+
+    #porque {
+        background-size: 50% 100%;
+        background-image: none;
+        background-repeat: no-repeat;
+    }
+
+    #row_productos {
+        background-image: none;
+        background-color: #eaeaea;
+        margin: 30px 0px;
+        border-radius: 17px;
+    }
+
+    #producto {
+        background-color: #eaeaea;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px;
+        margin: auto;
+        width: 100%;
+    }
+
+    .col-seg {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0px;
+        width: 100%;
+    }
+
+    .columnas-pa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .texto-pa {
+        padding: 0px 0px 0px 0px;
+        width: 100%;
+    }
+    .ventajas-para {
+        display: flex;
+        flex-direction: column;
+        margin: 32px 0px 0px 0px;
+        justify-content: space-between;
+    }
+
+    .vent-pa {
+        background: #ffffff;
+        margin: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 23px 10px;
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    .cuadro-service {
+        width: 100%;
+        margin: 43px 0px!important;
+        display: flex;
+    }
+
+    td.imgtd img {
+        width: 33px !important;
+    }
+
+    section#productos {
+        position: relative;
+    }
+
+    .bt-srva {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .bt-srva {
+        position: absolute;
+        bottom: 33px;
+    }
+
+    .beneficio .linea_cuadro {
+        color: #006730;
+        border-color: #006730;
+        background-color: #006730;
+        width: 85%;
+        height: 1px;
+        margin: 0px auto;
+        margin-top: 94px;
+        margin-bottom: 10px;
+    }
+
+    #productos_boton {
+        width: 100%;
+        font-size: 18px !important;
+    }
+
+    .cdr-hover td.imgtd img {
+        width: 91px !important;
+    }
+
+    #tira .linea {
+        color: #00923f;
+        border-color: #00923f;
+        background-color: #00923f;
+        width: 170px;
+        height: 3px;
+        margin: 0px auto;
+    }
+
+    .videp-para iframe {
+        width: 300px;
+        height: 216px;
+    }
+
+    .titulo-prin .botones {
+        text-align: center;
+    }
+
+    h3.tit-ico-se.xt {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .ic-seg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: #ffffff;
+        padding: 0px 0px;
+        border-radius: 20px;
+        margin: 0px 36px;
+        height: 238px;
+    }
+
+    span.guion {
+        display: none;
+    }
+
+    .beneficio td.imgtd {
+        padding: 5px 0px 0px 0px;
+    }
+
+    .beneficio .cuadro-service {
+        width: 100%;
+        margin: 15px 0px!important;
+        display: flex;
+    }
+
+    .beneficio .flexthis {
+        justify-content: center;
+        margin: 10px 0px 0px 0px;
+    }
+
+}
+

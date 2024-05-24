@@ -66,6 +66,7 @@ $(document).ready(function(){
         $('.img-push-hover2').attr('src','images/seguridad-02-hover.png');
         $('.img-push3').attr('src','images/seguridad-03.png');
         $('.img-push-hover3').attr('src','images/seguridad-03-hover.png');
+        $('.img-push4').attr('src','images/seguridad-04.png');
         $('.img-push-hover4').attr('src','images/seguridad-04-hover.png');
         $('.triangulito').hide(); $('.tri1').show();
         $('#productos .boton_menu').css("background-color", "#ede8d5");
@@ -85,12 +86,14 @@ $(document).ready(function(){
         $(".mx02").html("La centralización de la tecnología en un sistema único ofrece numerosos beneficios en términos de eficiencia y facilidad de gestión. Permite monitorear, mantener y administrar de forma más efectiva los recursos tecnológicos, proporcionando una visión global y simplificando la gestión diaria de las operaciones.");
         $(".mx03").html("Equipos 4K, superficies transparentes, monitores de tamaños especiales, etc. Poseen funciones que facilitan la colaboración: variedad de conexiones, varios participantes a la vez, escritura sobre la imagen, compartir información digitalmente, etc. Realizamos el diseño y la producción de contenidos especiales.");
         $(".mx04").html("Sistemas de audio que garantizan la mejor reproducción de cualquier medio, refuerzo de voz y microfonía específica para audio o videoconferencia, mood music o sonorización de grandes espacios.");
-        $('.img-push').attr('src','images/seguridad-04.png');
-        $('.img-push-hover').attr('src','images/seguridad-04-hover.png');
-        $('.img-push2').attr('src','images/seguridad-05.png');
-        $('.img-push-hover2').attr('src','images/seguridad-05-hover.png');
-        $('.img-push3').attr('src','images/seguridad-06.png');
-        $('.img-push-hover3').attr('src','images/seguridad-06-hover.png');
+        $('.img-push').attr('src','images/seguridad-05.png');
+        $('.img-push-hover').attr('src','images/seguridad-05-hover.png');
+        $('.img-push2').attr('src','images/seguridad-06.png');
+        $('.img-push-hover2').attr('src','images/seguridad-06-hover.png');
+        $('.img-push3').attr('src','images/seguridad-07.png');
+        $('.img-push-hover3').attr('src','images/seguridad-07-hover.png');
+        $('.img-push4').attr('src','images/seguridad-08.png');
+        $('.img-push-hover4').attr('src','images/seguridad-08-hover.png');
         $('.triangulito').hide(); $('.tri2').show();
         $('#productos .boton_menu').css("background-color", "#ede8d5");
         $('#productos .boton_menu').css("border", "2px solid #ede8d5");

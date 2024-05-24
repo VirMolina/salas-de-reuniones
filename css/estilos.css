@@ -18,9 +18,9 @@
   .mail_arriba{
     display: none;
   }
-  .boton_menu{
-    /* width: 115px !important; */
-  }
+/*   .boton_menu{
+    width: 115px !important; 
+  } */
   #productos_boton{
     width: 85%;
     font-size: 18px !important;
@@ -135,9 +135,10 @@
     padding-top: 0 !important;
     margin-bottom: 15px !important;
   }*/
-  .first .row {
-    /* margin-bottom: 30px !important;*/
-  }
+  /* .first .row {
+    /* margin-bottom: 30px !important;
+}    */
+
   body h2{
     margin: 40px 0px 10px !important;
   }
@@ -227,7 +228,10 @@
       left: 109px;
       top: 43px;
     }
+    .testimonials .testimonial-item .testimonial-img {
+      height: 100px;
   }
+} 
 
   /* PARA LA VERSION TABLET-CELULAR */
   @media (max-width: 768px) {
@@ -240,16 +244,13 @@
     h2 br{
       display: none;
     }
-    .logo{
-      /* height: 100px;
+/*     .logo{
+      height: 100px;
       margin-left: -10px;
-      margin-top: 25px; */
-    }
+      margin-top: 25px; 
+    } */
     .navbar{
       margin-bottom: 0 !important;
-    }
-    #phones{
-      /* text-align: right; */
     }
     .first .row{
         margin-top:30px !important;
@@ -305,7 +306,7 @@
     #habla #titulos{
       margin-top: 40px;
     }
-  }
+}
   /* PARA LA VERSION TABLET-CELULAR */
 
 @media (min-width: 768px){
@@ -319,10 +320,10 @@
       width: auto;
       margin-right: 20px; 
     }
-    .logo{
-      /* height: 100px;
-      margin-bottom: 10px; */
-    }
+/*     .logo{
+      height: 100px;
+      margin-bottom: 10px; 
+    } */
     .navbar{
       margin-bottom: -10px !important;
     }
@@ -425,6 +426,30 @@ body h2 b{
 .navbar {
   background-color: #08082c;
   margin-top: 40px;
+  display: block;
+  justify-content: space-between;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.logo {
+  padding: 0px 0px 2px;
+}
+
+.mail_arriba {
+  border-right: 3px solid #373f50;
+  padding: 7px 10px 7px 0px;
+  font-weight: 500;
+  font-size: 1.50rem;
+}
+
+.tel_arriba {
+  text-decoration: none;
+  font-weight: 300;
+  /*300=LIGHT 400=REGULAR 700/900=BOLD/BLACK */
+  font-size: 1.50rem;
 }
 #phones, #phones a{
   color: #ffffff;
@@ -543,9 +568,9 @@ body h2 b{
   background-repeat: no-repeat;
   margin-top: 20px;
 }
-#productos .botones{
-  /* margin-top: 30px;*/
-}
+/* #productos .botones{
+  margin-top: 30px;
+} */
 .boton_menu{
   font-weight: 700; /*300=LIGHT 400=REGULAR 700/900=BOLD/BLACK */
   color: #373f50;
@@ -663,7 +688,7 @@ body h2 b{
 --------------------------------------------------------------*/
 #testimonials{
   background-size:cover;
-  background-image:url('../images/Fondo-casos-de-éxito.png');
+  background-image:url('../images/Fondo-casos-de-exito.png');
   background-position: center center;
   background-repeat: no-repeat;
   padding: 40px 0px;
@@ -685,21 +710,19 @@ border-radius: 0%;
 border: none;
 margin: 0 auto;
 width: auto;
+height: 380px;
+object-fit: cover;
 }
 .testimonials .testimonial-item h3 {
-font-size: 1.25rem;
+font-size: 2.2rem;
 font-weight: 700;
 text-transform: uppercase;
 margin-bottom: 15px;
 }
-.testimonials .testimonial-item h4 {
-  font-size: 1rem;
-  font-weight: 700;
-  margin-bottom: 30px;
-}
+
 .testimonials .testimonial-item p {
-font-size: 1.125rem;
-line-height: 1.6rem;
+font-size: 1.5rem;
+line-height: 2.2rem;
 font-weight: 400;
 text-align: left;
 margin-bottom: 4.375rem;
@@ -874,9 +897,9 @@ border: 2px solid #fff;
 }
 
 
-#respuesta{
-    /* text-align: center; */
-}
+/* #respuesta{
+    text-align: center; 
+} */
 #respuesta p{
     font-weight: 400; /*400=MEDIUM 700=BOLD 900=HEAVY */
     font-size: 24px;
